@@ -10,10 +10,6 @@ public class Car1 {
         this.model = model;
         this.price = price;
     }
-
-    
-
-    
     
     // void getDetails() {
     //     Scanner sc = new Scanner(System.in);
@@ -27,6 +23,7 @@ public class Car1 {
     //     System.out.print("Enter Car Price: ");
     //     price = sc.nextDouble();
     // }
+    
     void displayDetials(){
         System.out.println("\n--- Car Details ---");
         System.out.println("Brand : " + brand);
