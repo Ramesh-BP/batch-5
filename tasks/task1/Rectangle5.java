@@ -25,7 +25,7 @@ class Rectangle5 {
 }
 // -----------------------------------------------------------------------------------------------------
 // simple code using scanner and without constructor
-
+ 
 // import java.util.Scanner;
 
 // class Rectangle5 {
@@ -74,8 +74,8 @@ class Rectangle5 {
 
 //         Rectangle r = new Rectangle();
 
-//         System.out.print("Enter length: ");
-//         r.length = sc.nextDouble();
+//         System.out.print("Enter length: ");  
+//         r.length = sc.nextDouble();                //  new Rectangle().length=sc.nextDouble();
 
 //         System.out.print("Enter width: ");
 //         r.width = sc.nextDouble();
