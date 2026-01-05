@@ -8,6 +8,6 @@ public class Demo {
         add();
         System.out.println(a);
         System.out.println(b);
-    } 
+    }
 }
  

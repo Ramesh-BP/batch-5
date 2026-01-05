@@ -43,7 +43,7 @@ class Student2 {
         // switch (gradeCategory) {                            switch (true) 
         //     case 10:                                              case (marks >= 90):
         //     case 9:                                                  System.out.println("Grade : A");
-        //         System.out.println("Grade : A");
+        //         System.out.println("Grade : A");                   
         //         break;
 
         //     case 8:
