@@ -7,7 +7,7 @@ class Student2 {
     int marks;
 
     void getDetails() {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc  = new Scanner(System.in);
 
         System.out.print("Enter Student ID: ");
         id = sc.nextInt();
@@ -37,6 +37,32 @@ class Student2 {
         } else {
             System.out.println("Grade : F (Fail)");
         }
+
+        //  int gradeCategory = marks / 10;
+
+        // switch (gradeCategory) {                            switch (true) 
+        //     case 10:                                              case (marks >= 90):
+        //     case 9:                                                  System.out.println("Grade : A");
+        //         System.out.println("Grade : A");
+        //         break;
+
+        //     case 8:
+        //     case 7:
+        //         System.out.println("Grade : B");
+        //         break;
+
+        //     case 6:
+        //         System.out.println("Grade : C");
+        //         break;
+
+        //     case 5:
+        //     case 4:
+        //         System.out.println("Grade : D");
+        //         break;
+
+        //     default:
+        //         System.out.println("Grade : F (Fail)");
+        // }
     }
 
     public static void main(String[] args) {
