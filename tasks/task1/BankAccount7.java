@@ -1,11 +1,10 @@
-public class BankAccount7 {
+ public class BankAccount7 {
     
     private double balance;
 
     BankAccount7(double initialBalance) {
         balance = initialBalance;
     }
-
    
     void deposit(double amount) {
         if (amount > 0) {
